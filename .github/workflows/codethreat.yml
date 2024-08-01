@@ -1,3 +1,5 @@
+name: CT AI Scan
+
 # Controls when the workflow will run
 on:
   push:
