@@ -1,12 +1,10 @@
+# Controls when the workflow will run
 on:
-  # Trigger scan when pushing in master or pull requests, and when creating
-  # a pull request.
+  push:
+    branches: [ "master" ]
   pull_request:
-      branches:
-        - main
-  push: 
-        branches:
-        - main
+    types: [opened, reopened, synchronize]
+    branches: [ "master" ]
 jobs:
   codethreat_scanner:
     runs-on: ubuntu-latest
