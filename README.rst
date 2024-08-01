@@ -2,7 +2,7 @@
 DVPWA -- Damn Vulnerable Python Web Application
 ===============================================
 
-Test Vulnerable Python App.
+Test Vulnerable Python App..
 
 Description
 ===========
